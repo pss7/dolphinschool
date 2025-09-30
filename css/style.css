@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* 가운데영역 */
+.container{max-width: 1240px; padding: 0 20px; margin: 0 auto;}
+
+/* 버튼 */
+.btn{display: block; padding: 10px 24px; background-color: #00A3FF; font-size: 14px; border-radius: 5px; text-align: center; color: #fff; word-break: keep-all;}
+.borderBtn{display: block; padding: 10px 24px; color: #00A3FF; font-size: 14px; border-radius: 5px; text-align: center; border: 1px solid #00A3FF; background-color: #fff;}
+
+/* 색상 */
+.gradient-text {background: linear-gradient(to right, #3DB7FE , #0A60E6);  -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.gradient-bg{background: linear-gradient(to right, #4A68FF, #A25EF7);}
+
+/* 제목 */
+.titleBox h2{text-align: center; font-size: 56px; word-break: keep-all;}
+.titleBox p{margin: 20px 0; color: #424242; line-height: 1.5;}
+
+@media (max-width: 1199px){
+
+  .titleBox h2{font-size: 48px;}
+
+}
+
+@media (max-width: 767px){
+
+  .titleBox h2{font-size: 32px;}
+
+}
+
+@media (max-width: 480px){
+
+  .titleBox h2{font-size: 28px;}
+
+}
+
+/* 헤더 */
+#headerWrap{position: absolute; top:-200px; left:0; right:0; border-bottom: 1px solid #F1F1F1; z-index: 999; background-color: #fff; transition: all 1.5s;}
+#headerWrap.active{top: 0;}
+#headerWrap .logoBox h1 a{padding: 19px 0;}
+#headerWrap .logoBox h1 a,
+#headerWrap .logoBox h1 a img{display: block;}
+#headerWrap .headerBox{display: flex; align-items: center; justify-content: space-between;}
+
+@media (max-width: 360px){
+
+  #headerWrap .btn{padding: 8px 11px; font-size: 11px;}
+  #headerWrap .logoBox h1 a{padding: 14px 0;}
+  #headerWrap .logoBox h1 a img{width: 150px;}
+
+}
+
+@media (max-width: 320px){
+
+  #headerWrap .logoBox h1 a img{width: 100px;}
+
+}
