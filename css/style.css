@@ -4,7 +4,7 @@
 .container{max-width: 1240px; padding: 0 20px; margin: 0 auto;}
 
 /* 버튼 */
-.btn{display: block; padding: 10px 24px; background-color: #00A3FF; font-size: 14px; border-radius: 5px; text-align: center; color: #fff; word-break: keep-all;}
+.comButton{display: block; padding: 10px 24px; background-color: #00A3FF; font-size: 14px; border-radius: 5px; text-align: center; color: #fff; word-break: keep-all;}
 .borderBtn{display: block; padding: 10px 24px; color: #00A3FF; font-size: 14px; border-radius: 5px; text-align: center; border: 1px solid #00A3FF; background-color: #fff;}
 
 /* 색상 */
@@ -43,7 +43,7 @@
 
 @media (max-width: 360px){
 
-  #headerWrap .btn{padding: 8px 11px; font-size: 11px;}
+  #headerWrap .comButton{padding: 8px 11px; font-size: 11px;}
   #headerWrap .logoBox h1 a{padding: 14px 0;}
   #headerWrap .logoBox h1 a img{width: 150px;}
 

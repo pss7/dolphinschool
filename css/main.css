@@ -3,6 +3,12 @@
 #mainWrap{margin-top: 68px;}
 #wrap{overflow-y: hidden;}
 
+@media (max-width: 360px){
+
+  #mainWrap{margin-top: 53px;}
+
+}
+
 /* section01 */
 #section01{padding: 120px 0 130px; background: url(../images/main/main_bg.png)no-repeat center; background-size: cover!important; overflow-x: hidden;}
 #section01 .titleBox{margin-bottom: 30px;}
