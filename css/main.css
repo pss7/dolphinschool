@@ -15,7 +15,6 @@
 #section01 .titleBox p{display: none;}
 #section01 .btnBox{margin-bottom: 56px; display: flex; align-items: center; justify-content: center; gap: 0 10px;}
 #section01 .btn{padding: 14px 24px;}
-#section01 .borderBtn{padding: 13px 24px;}
 #section01 .slide img{display: block; max-width: 100%; margin: 0 auto;}
 #section01 .btnBox.m{display: none;}
 

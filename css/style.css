@@ -5,7 +5,7 @@
 
 /* 버튼 */
 .comButton{display: block; padding: 10px 24px; background-color: #00A3FF; font-size: 14px; border-radius: 5px; text-align: center; color: #fff; word-break: keep-all;}
-.borderBtn{display: block; padding: 10px 24px; color: #00A3FF; font-size: 14px; border-radius: 5px; text-align: center; border: 1px solid #00A3FF; background-color: #fff;}
+.borderBtn{display: block; padding: 9px 22px; color: #00A3FF; font-size: 14px; border-radius: 5px; text-align: center; border: 1px solid #00A3FF; background-color: #fff;}
 
 /* 색상 */
 .gradient-text {background: linear-gradient(to right, #3DB7FE , #0A60E6);  -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
